@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background: #424242;
+  color: white;
+  font-size: 14px; }
+
+a {
+  color: #FF9638; }
+
+abbr {
+  color: #FF9638;
+  cursor: help; }
+
+li {
+  list-style: none; }
+
+.page-wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 10px;
+  background: url(http://www.csszengarden.com/007/logo.gif) 0 15px no-repeat, url(http://www.csszengarden.com/007/background.jpg) 40% 50px no-repeat;
+  position: relative; }
+
+.intro {
+  position: relative; }
+  .intro header, .intro .summary p:first-child {
+    display: none; }
+  .intro .summary p:last-child {
+    font-size: 0.85em;
+    position: relative;
+    left: 50%; }
+  .intro .preamble {
+    background: #606060;
+    width: 250px;
+    padding: 10px 15px 10px 10px;
+    border-top: 1px solid white;
+    font-size: 0.8em;
+    position: relative;
+    left: 73%;
+    top: 40px; }
+    .intro .preamble h3 {
+      margin-top: 0; }
+    .intro .preamble p:last-child {
+      margin-bottom: 0; }
+
+.main {
+  margin-top: 140px; }
+  .main div {
+    border-top: 1px solid white;
+    margin-bottom: 80px; }
+  .main div:nth-child(2n+1) {
+    margin-left: 26%;
+    margin-right: 3%; }
+    .main div:nth-child(2n+1) h3 {
+      float: left;
+      border-right: 1px solid white;
+      margin-left: 0; }
+  .main div:nth-child(2n) {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-left: 10px; }
+    .main div:nth-child(2n) h3 {
+      float: right;
+      border-left: 1px solid white;
+      margin-right: 0; }
+  .main h3 {
+    width: 50px;
+    writing-mode: vertical-rl;
+    text-indent: -9999px; }
+  .main .explanation {
+    height: 234px;
+    background: url(http://www.csszengarden.com/007/about_background.gif) 100% 100% no-repeat; }
+    .main .explanation h3 {
+      background: url(http://www.csszengarden.com/007/about.gif) no-repeat;
+      height: 234px; }
+  .main .participation {
+    height: 240px;
+    background: url(http://www.csszengarden.com/007/participation_back.gif) 0 100% no-repeat; }
+    .main .participation h3 {
+      background: url(http://www.csszengarden.com/007/participation.gif) no-repeat;
+      background-size: 46px 100%;
+      height: 240px; }
+  .main .benefits {
+    height: 133px;
+    background: url(http://www.csszengarden.com/007/benefits_back.gif) 60% 100% no-repeat; }
+    .main .benefits h3 {
+      background: url(http://www.csszengarden.com/007/benefits.gif) no-repeat;
+      height: 133px; }
+  .main .requirements {
+    margin-bottom: 50px; }
+    .main .requirements h3 {
+      background: url(http://www.csszengarden.com/007/Requirements.gif) no-repeat;
+      background-size: 46px 80%;
+      height: 400px; }
+  .main footer {
+    text-align: center; }
+    .main footer a {
+      padding-right: 20px;
+      text-decoration: none; }
+
+.sidebar {
+  position: absolute;
+  top: 100px;
+  font-size: 0.85em; }
+  .sidebar ul {
+    padding: 0; }
+    .sidebar ul li {
+      background: #606060;
+      padding: 4px 10px 10px 4px;
+      border-bottom: 1px solid #424242; }
+      .sidebar ul li a {
+        color: white; }
+      .sidebar ul li:last-child {
+        padding-bottom: 0; }
+  .sidebar h3 {
+    text-indent: -9999px;
+    margin: 0;
+    width: 236px;
+    height: 53px; }
+  .sidebar .select {
+    background: url(http://www.csszengarden.com/007/select.gif) no-repeat;
+    background-size: 100% 53px; }
+  .sidebar .archives {
+    background: url(http://www.csszengarden.com/007/archives.gif) no-repeat;
+    background-size: 100% 53px; }
+  .sidebar .resources {
+    background: url(http://www.csszengarden.com/007/resources.gif) no-repeat;
+    background-size: 100% 53px; }
+
+/*# sourceMappingURL=style2.css.map */

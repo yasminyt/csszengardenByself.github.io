@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  background: #69f;
+  font-size: 14px;
+  line-height: 1.4em;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  position: relative; }
+
+a {
+  color: #CC0000;
+  text-decoration: none;
+  font-weight: bold; }
+  a:hover {
+    text-decoration: underline; }
+
+li {
+  list-style-type: none; }
+
+.page-wrapper {
+  width: 900px;
+  margin: 0 auto;
+  padding: 265px 0 20px;
+  background: url(http://www.csszengarden.com/006/tag.gif) 87% 12%/255px 50px no-repeat, url(http://www.csszengarden.com/006/trees.jpg) 0 0/100% no-repeat;
+  background-color: #99ccff;
+  border-left: 2px dashed white;
+  border-right: 2px dashed white;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-areas: 'header aside' 'main aside'; }
+
+.intro {
+  grid-area: header; }
+  .intro header {
+    display: none; }
+  .intro .summary {
+    width: 150px;
+    float: left;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+    background: #0099FF;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .intro .preamble {
+    width: 73%;
+    float: right; }
+    .intro .preamble h3 {
+      margin-top: 0; }
+
+.main {
+  grid-area: main;
+  padding-left: 20px; }
+  .main footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center; }
+    .main footer a {
+      padding-right: 20px; }
+
+.sidebar {
+  grid-area: aside;
+  background: url(http://www.csszengarden.com/006/menu.gif) no-repeat;
+  background-size: 120px 880px;
+  margin: 0 10px;
+  padding-top: 80px; }
+  .sidebar .wrapper {
+    position: relative;
+    left: 10px;
+    text-align: left;
+    font-size: 0.8em; }
+    .sidebar .wrapper h3 {
+      background: url(http://www.csszengarden.com/006/select.gif) no-repeat;
+      text-indent: -9999px; }
+    .sidebar .wrapper ul {
+      padding: 0 10px; }
+      .sidebar .wrapper ul li {
+        padding-bottom: 10px; }
+
+/*# sourceMappingURL=style1.css.map */

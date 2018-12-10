@@ -1,0 +1,27 @@
+.extra1, .extra2 {
+  position: fixed;
+  top: 50vh;
+}
+
+.extra1 {
+  left: -10px;
+}
+
+.extra2 {
+  right: -10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .extra1 {
+    left: 20px;
+  }
+  
+  .extra2 {
+    right: 20px;
+  }
+}
+
+.extra3 {
+  margin-top: 40px;
+  text-align: center;
+}
