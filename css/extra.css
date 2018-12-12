@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-size: 14px;
+}
+
 .extra1, .extra2 {
   position: fixed;
   top: 50vh;

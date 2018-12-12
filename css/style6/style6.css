@@ -1,0 +1,140 @@
+body {
+  background: #f60 url(http://www.csszengarden.com/110/bg.gif) repeat-y; }
+
+a {
+  color: #c00;
+  text-decoration: none;
+  text-transform: uppercase; }
+  a:hover {
+    text-decoration: underline; }
+
+h3 {
+  color: #c00;
+  font-size: 0.95rem;
+  text-align: center;
+  font-style: italic; }
+
+li {
+  list-style: none; }
+
+.page-wrapper {
+  width: 650px;
+  height: 1350px;
+  padding-left: 50px;
+  padding-right: 110px;
+  text-align: justify;
+  background: url(http://www.csszengarden.com/110/girl.gif) 95% -70px no-repeat padding-box, url(http://www.csszengarden.com/110/gardenia.gif) left top/200px 200px no-repeat, url(http://www.csszengarden.com/110/zengardenia.gif) 40% -30px no-repeat, url(http://www.csszengarden.com/110/dead.gif) left 35% no-repeat content-box, url(http://www.csszengarden.com/110/supp_bg.gif) 70% 68% no-repeat, url(http://www.csszengarden.com/110/head_bg.gif) 0 0/640px repeat-x content-box; }
+
+.intro {
+  width: 80%;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0 auto; }
+  .intro header {
+    padding-top: 30px; }
+    .intro header h1 {
+      display: none; }
+    .intro header h2 {
+      margin-top: 0;
+      font-size: 1.8em;
+      color: #900;
+      font-style: italic;
+      margin-bottom: 35px; }
+      .intro header h2 abbr {
+        color: black; }
+  .intro .summary {
+    width: 65%;
+    margin: 0 auto 50px;
+    font-weight: bold; }
+    .intro .summary a, .intro .summary abbr {
+      font-weight: normal; }
+  .intro .preamble {
+    width: 85%;
+    margin: 0 6%;
+    font-size: 0.88em;
+    text-align: justify; }
+
+.main {
+  width: 350px;
+  height: 575px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow-y: scroll;
+  position: relative;
+  top: 100px;
+  left: 36%;
+  font-size: 0.9em;
+  line-height: 1.5em; }
+  .main footer a {
+    padding: 10px; }
+
+.sidebar {
+  position: relative;
+  width: 200px;
+  top: -450px;
+  left: 10px;
+  padding: 45px 0;
+  background: url(http://www.csszengarden.com/110/sidebar_bg.gif) no-repeat;
+  text-align: center;
+  font-size: 0.85em; }
+  .sidebar ul {
+    padding-left: 0;
+    padding-right: 5px;
+    color: #bb4915; }
+    .sidebar ul li {
+      padding: 5px 0; }
+      .sidebar ul li a {
+        color: #c96;
+        font-weight: bold; }
+  .sidebar .design-selection, .sidebar .design-archives {
+    width: 90%;
+    margin: 0 auto; }
+  .sidebar .design-selection {
+    margin-top: 40px; }
+    .sidebar .design-selection li {
+      border-bottom: 1px dotted #b63; }
+    .sidebar .design-selection .design-name::after {
+      content: "\A";
+      white-space: pre; }
+    .sidebar .design-selection .designer-name {
+      font-weight: normal; }
+    .sidebar .design-selection h3 {
+      display: none; }
+  .sidebar .archives {
+    margin-top: 30px;
+    margin-bottom: 10px; }
+  .sidebar .zen-resources {
+    width: 651px;
+    position: absolute;
+    top: 750px;
+    left: -10px;
+    background: #900; }
+    .sidebar .zen-resources ul {
+      padding-right: 0; }
+    .sidebar .zen-resources li {
+      display: inline; }
+    .sidebar .zen-resources h3 {
+      display: none; }
+    .sidebar .zen-resources::before {
+      content: '';
+      width: 148px;
+      height: 200px;
+      position: absolute;
+      top: -200px;
+      left: 200px;
+      background: url(http://www.csszengarden.com/110/girl.gif) no-repeat; }
+    .sidebar .zen-resources::after {
+      content: '';
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      top: -220px;
+      right: -115px;
+      background: url(http://www.csszengarden.com/110/gardenia.gif) no-repeat;
+      background-size: 100% 100%; }
+
+.extra3 {
+  width: 658px;
+  padding-left: 45px; }
+
+/*# sourceMappingURL=style6.css.map */
