@@ -1,5 +1,6 @@
 const cssFile = [
   './css/style1/style1.css',
+  './css/style8/style8.css',
   './css/style2/style2.css',
   './css/style3/style3.css',
   './css/style4/style4.css',
@@ -10,6 +11,7 @@ const cssFile = [
 
 const copyright = [
   { href: 'http://www.csszengarden.com/213/', title: 'Under the Sea!', author: 'ERIC STOLTZ', country: 'United States'},
+  { href: 'http://www.csszengarden.com/199/', title: 'CSS ZEN ARMY', author: 'CARL DESMOND', country: 'United States'},
   { href: 'http://www.csszengarden.com/006/', title: 'Wicked Grove', author: 'D. KEITH ROBINSON', country: 'United States'},
   { href: 'http://www.csszengarden.com/007/', title: 'Deep Thoughts', author: 'JASON ESTES', country: 'United States'},
   { href: 'http://www.csszengarden.com/100/', title: '15 Petals', author: 'ERIC MEYER & DAVE SHEA', country: 'United States'},

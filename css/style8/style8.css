@@ -1,0 +1,91 @@
+body {
+  background: url(http://www.csszengarden.com/199/topgrnd.jpg) 0 0/100% 295px repeat-x, url(http://www.csszengarden.com/199/btmgrnd.jpg) bottom left no-repeat;
+  background-color: #e7d8af; }
+
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold; }
+  a:hover {
+    color: #3B6132;
+    text-decoration: underline; }
+
+.page-wrapper {
+  line-height: 1.5rem;
+  width: 764px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 0.9em;
+  position: relative; }
+
+.intro {
+  background: url(http://www.csszengarden.com/199/header.jpg) 0 0/100% 380px no-repeat; }
+  .intro header, .intro .summary p:first-child {
+    display: none; }
+  .intro .summary p:last-child {
+    margin-top: 0;
+    padding-top: 380px;
+    padding-right: 35px;
+    text-align: right; }
+  .intro .preamble h3 {
+    background: url(http://www.csszengarden.com/199/h1_road.gif) no-repeat; }
+
+.preamble, .main {
+  width: 68%;
+  margin-left: 32%; }
+  .preamble h3, .main h3 {
+    margin: 30px 0 10px;
+    height: 43px;
+    text-indent: -9999px; }
+
+.main .explanation h3 {
+  background: url(http://www.csszengarden.com/199/h1_sowhat.gif) no-repeat; }
+.main .participation h3 {
+  background: url(http://www.csszengarden.com/199/h1_participate.gif) no-repeat; }
+.main .benefits h3 {
+  background: url(http://www.csszengarden.com/199/h1_benefit.gif) no-repeat; }
+.main .requirements h3 {
+  background: url(http://www.csszengarden.com/199/h1_requirements.gif) no-repeat; }
+.main footer {
+  margin-top: 25px;
+  text-align: right; }
+  .main footer a {
+    padding-right: 15px; }
+
+.sidebar {
+  width: 222px;
+  position: absolute;
+  top: 19%;
+  text-align: left;
+  line-height: normal;
+  font-size: 0.5rem;
+  background: url(http://www.csszengarden.com/199/linklist_bk.gif) repeat-y; }
+  .sidebar .design-name::after {
+    content: "\A";
+    white-space: pre; }
+  .sidebar .select {
+    height: 169px;
+    background: url(http://www.csszengarden.com/199/selectdesign.jpg) no-repeat; }
+  .sidebar .archives {
+    height: 191px;
+    background: url(http://www.csszengarden.com/199/archives.jpg) no-repeat; }
+  .sidebar .resources {
+    height: 202px;
+    background: url(http://www.csszengarden.com/199/resources.jpg) no-repeat; }
+  .sidebar h3 {
+    margin-top: 0;
+    text-indent: -9999px; }
+  .sidebar ul {
+    width: 60%;
+    padding: 0;
+    margin: 0 auto 20px; }
+    .sidebar ul li {
+      list-style: none;
+      border-bottom: 1px solid red;
+      padding-top: 5px; }
+      .sidebar ul li:first-child {
+        border-top: 1px solid red; }
+      .sidebar ul li:last-child {
+        border: none; }
+
+/*# sourceMappingURL=style8.css.map */
