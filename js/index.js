@@ -5,9 +5,11 @@ const cssFile = [
   './css/style4/style4.css',
   './css/style5/style5.css',
   './css/style6/style6.css',
+  './css/style7/style7.css'
 ]
 
 const copyright = [
+  { href: 'http://www.csszengarden.com/213/', title: 'Under the Sea!', author: 'ERIC STOLTZ', country: 'United States'},
   { href: 'http://www.csszengarden.com/006/', title: 'Wicked Grove', author: 'D. KEITH ROBINSON', country: 'United States'},
   { href: 'http://www.csszengarden.com/007/', title: 'Deep Thoughts', author: 'JASON ESTES', country: 'United States'},
   { href: 'http://www.csszengarden.com/100/', title: '15 Petals', author: 'ERIC MEYER & DAVE SHEA', country: 'United States'},

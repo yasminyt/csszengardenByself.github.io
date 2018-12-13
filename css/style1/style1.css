@@ -1,84 +1,194 @@
 body {
-  margin: 0;
-  background: #69f;
-  font-size: 14px;
-  line-height: 1.4em;
-  text-align: justify;
-  letter-spacing: 0.05em;
+  background: #F0ECD6 url(http://www.csszengarden.com/213/water.png) repeat-x;
   position: relative; }
 
-a {
-  color: #CC0000;
-  text-decoration: none;
-  font-weight: bold; }
-  a:hover {
-    text-decoration: underline; }
+.extra4 {
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  bottom: 0;
+  background: url(http://www.csszengarden.com/213/bottom.png) -80px bottom no-repeat; }
 
-li {
-  list-style-type: none; }
+h3 {
+  text-indent: -9999px;
+  height: 45px;
+  margin-top: 0; }
+
+a {
+  color: #993300;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: #993300 dotted underline; }
 
 .page-wrapper {
-  width: 900px;
+  width: 700px;
   margin: 0 auto;
-  padding: 265px 0 20px;
-  background: url(http://www.csszengarden.com/006/tag.gif) 87% 12%/255px 50px no-repeat, url(http://www.csszengarden.com/006/trees.jpg) 0 0/100% no-repeat;
-  background-color: #99ccff;
-  border-left: 2px dashed white;
-  border-right: 2px dashed white;
-  display: grid;
-  grid-template-columns: 80% 20%;
-  grid-template-areas: 'header aside' 'main aside'; }
+  background: url(http://www.csszengarden.com/213/squid-blowfish.png) top right no-repeat, url(http://www.csszengarden.com/213/top.png) 0 144px no-repeat border-box;
+  font-size: 0.85em;
+  position: relative; }
+  .page-wrapper::before {
+    content: '';
+    width: 33px;
+    height: 234px;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    background: url(http://www.csszengarden.com/213/beauty.png) no-repeat; }
+  .page-wrapper::after {
+    content: '';
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    background: url(http://www.csszengarden.com/213/critters.png) no-repeat; }
 
 .intro {
-  grid-area: header; }
+  width: 385px; }
   .intro header {
-    display: none; }
+    width: 290px;
+    height: 195px;
+    background: url(http://www.csszengarden.com/213/title.png) no-repeat; }
+    .intro header h1, .intro header h2 {
+      display: none; }
   .intro .summary {
-    width: 150px;
-    float: left;
-    font-size: 0.9em;
-    font-weight: bold;
-    text-align: right;
-    color: white;
-    background: #0099FF;
-    padding-left: 10px;
-    padding-right: 10px; }
+    width: 270px;
+    margin: 0 auto 35px;
+    text-align: center; }
+    .intro .summary p:last-child {
+      text-transform: uppercase; }
   .intro .preamble {
-    width: 73%;
-    float: right; }
+    width: 385px;
+    box-sizing: border-box;
+    padding: 0 15% 35px;
+    background: url(http://www.csszengarden.com/213/back.png) repeat-y; }
     .intro .preamble h3 {
-      margin-top: 0; }
+      background: url(http://www.csszengarden.com/213/enlightenment.png) center no-repeat; }
+    .intro .preamble p:last-child {
+      margin-bottom: 0; }
 
 .main {
-  grid-area: main;
-  padding-left: 20px; }
-  .main footer {
+  width: 385px;
+  position: relative; }
+  .main::after {
+    content: '';
+    width: 100%;
+    height: 600px;
     position: absolute;
-    left: 0;
-    right: 0;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center; }
-    .main footer a {
-      padding-right: 20px; }
+    background: url(http://www.csszengarden.com/213/end.png) bottom no-repeat; }
+  .main p:last-child {
+    margin-bottom: 0; }
+  .main .explanation {
+    width: 385px;
+    box-sizing: border-box;
+    padding: 0 15% 35px;
+    background: url(http://www.csszengarden.com/213/back.png) repeat-y; }
+    .main .explanation h3 {
+      background: url(http://www.csszengarden.com/213/about.png) center no-repeat; }
+  .main .participation {
+    width: 385px;
+    box-sizing: border-box;
+    padding: 0 15% 35px;
+    background: url(http://www.csszengarden.com/213/back.png) repeat-y; }
+    .main .participation h3 {
+      background: url(http://www.csszengarden.com/213/participation.png) center no-repeat; }
+  .main .benefits {
+    width: 385px;
+    box-sizing: border-box;
+    padding: 0 15% 35px;
+    background: url(http://www.csszengarden.com/213/back.png) repeat-y; }
+    .main .benefits h3 {
+      background: url(http://www.csszengarden.com/213/benefits.png) center no-repeat; }
+  .main .requirements {
+    width: 385px;
+    box-sizing: border-box;
+    padding: 0 15% 35px;
+    background: url(http://www.csszengarden.com/213/back.png) repeat-y;
+    padding-bottom: 10px; }
+    .main .requirements h3 {
+      background: url(http://www.csszengarden.com/213/requirements.png) center no-repeat; }
+    .main .requirements p:last-child {
+      margin-top: 35px;
+      text-align: center; }
+      .main .requirements p:last-child::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 45px;
+        background: url(http://www.csszengarden.com/213/huzzah.png) center no-repeat; }
+      .main .requirements p:last-child a {
+        text-transform: uppercase;
+        font-weight: bold; }
+        .main .requirements p:last-child a:visited {
+          color: #999900; }
+        .main .requirements p:last-child a:hover {
+          color: #333;
+          text-decoration: underline; }
+        .main .requirements p:last-child a::before, .main .requirements p:last-child a::after {
+          content: "\A";
+          white-space: pre; }
+  .main footer {
+    box-sizing: border-box;
+    width: 252px;
+    height: 57px;
+    position: absolute;
+    bottom: 6%;
+    left: 90%;
+    font-size: 1.15em;
+    text-align: center;
+    padding: 12px;
+    background: url(http://www.csszengarden.com/213/footer.png) no-repeat; }
 
 .sidebar {
-  grid-area: aside;
-  background: url(http://www.csszengarden.com/006/menu.gif) no-repeat;
-  background-size: 120px 880px;
-  margin: 0 10px;
-  padding-top: 80px; }
-  .sidebar .wrapper {
-    position: relative;
-    left: 10px;
-    text-align: left;
-    font-size: 0.8em; }
-    .sidebar .wrapper h3 {
-      background: url(http://www.csszengarden.com/006/select.gif) no-repeat;
-      text-indent: -9999px; }
-    .sidebar .wrapper ul {
-      padding: 0 10px; }
-      .sidebar .wrapper ul li {
-        padding-bottom: 10px; }
+  width: 225px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 322px;
+  left: 376px;
+  background: url(http://www.csszengarden.com/213/menu-top.png) no-repeat, url(http://www.csszengarden.com/213/menu-back.png) repeat-y; }
+  .sidebar::after {
+    content: '';
+    width: 100%;
+    height: 352px;
+    position: absolute;
+    bottom: -352px;
+    background: url(http://www.csszengarden.com/213/menu-end.png) 0 0 no-repeat; }
+  .sidebar .design-selection {
+    margin-top: 105px; }
+    .sidebar .design-selection h3 {
+      background: url(http://www.csszengarden.com/213/select.png) left no-repeat; }
+    .sidebar .design-selection .design-name {
+      font-weight: bold; }
+      .sidebar .design-selection .design-name::after {
+        content: "\A";
+        white-space: pre; }
+  .sidebar .archives {
+    background: url(http://www.csszengarden.com/213/archives.png) no-repeat; }
+  .sidebar .resources {
+    background: url(http://www.csszengarden.com/213/resources.png) no-repeat; }
+  .sidebar h3 {
+    height: 15px;
+    margin-bottom: 0; }
+  .sidebar ul {
+    padding-left: 40px; }
+    .sidebar ul li {
+      list-style: none;
+      padding: 5px;
+      position: relative; }
+      .sidebar ul li::before {
+        content: '';
+        position: absolute;
+        left: -25px;
+        top: 10px;
+        width: 24px;
+        height: 10px;
+        background: url(http://www.csszengarden.com/213/bullet.png) 0 0 no-repeat; }
+      .sidebar ul li:last-child {
+        padding-bottom: 25px; }
+
+.extra3 {
+  width: 45%;
+  margin-left: 50%;
+  margin-top: 350px; }
 
 /*# sourceMappingURL=style1.css.map */
